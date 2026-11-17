@@ -15,7 +15,7 @@ Integrations and third-party clients can build on these packages. The Apache-2.0
 ## Related
 
 - [penvire-backend](https://github.com/Penvire/penvire-backend)
-- [penvire-client](https://github.com/Penvire/penvire-client)
+- [penvire-clients](https://github.com/Penvire/penvire-clients)
 - [penvire-docs](https://github.com/Penvire/penvire-docs)
 
 ## License
