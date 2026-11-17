@@ -1,0 +1,40 @@
+{
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+  "release-type": "simple",
+  "bump-minor-pre-major": true,
+  "include-component-in-tag": true,
+  "packages": {
+    "openapi/bff": {
+      "component": "openapi-bff",
+      "extra-files": [{ "type": "yaml", "path": "openapi.yaml", "jsonpath": "$.info.version" }]
+    },
+    "openapi/tenant": {
+      "component": "openapi-tenant",
+      "extra-files": [{ "type": "yaml", "path": "openapi.yaml", "jsonpath": "$.info.version" }]
+    },
+    "openapi/engagement": {
+      "component": "openapi-engagement",
+      "extra-files": [{ "type": "yaml", "path": "openapi.yaml", "jsonpath": "$.info.version" }]
+    },
+    "openapi/evidence": {
+      "component": "openapi-evidence",
+      "extra-files": [{ "type": "yaml", "path": "openapi.yaml", "jsonpath": "$.info.version" }]
+    },
+    "openapi/audit": {
+      "component": "openapi-audit",
+      "extra-files": [{ "type": "yaml", "path": "openapi.yaml", "jsonpath": "$.info.version" }]
+    },
+    "openapi/finding": {
+      "component": "openapi-finding",
+      "extra-files": [{ "type": "yaml", "path": "openapi.yaml", "jsonpath": "$.info.version" }]
+    },
+    "openapi/reporting": {
+      "component": "openapi-reporting",
+      "extra-files": [{ "type": "yaml", "path": "openapi.yaml", "jsonpath": "$.info.version" }]
+    },
+    "openapi/notification": {
+      "component": "openapi-notification",
+      "extra-files": [{ "type": "yaml", "path": "openapi.yaml", "jsonpath": "$.info.version" }]
+    }
+  }
+}
